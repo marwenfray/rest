@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "0f1e4b98-3fe7-478d-85d7-e765524f9ad1",
+		"name": "openweather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "kyoto current time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=kyoto&appid=d92af1e28a5502d5aa7679855447f9b5",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "kyoto"
+						},
+						{
+							"key": "appid",
+							"value": "d92af1e28a5502d5aa7679855447f9b5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bangkok",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=bangkok&appid=d92af1e28a5502d5aa7679855447f9b5",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bangkok"
+						},
+						{
+							"key": "appid",
+							"value": "d92af1e28a5502d5aa7679855447f9b5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bali",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=bali&appid=d92af1e28a5502d5aa7679855447f9b5",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bali"
+						},
+						{
+							"key": "appid",
+							"value": "d92af1e28a5502d5aa7679855447f9b5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oslo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=oslo&appid=d92af1e28a5502d5aa7679855447f9b5",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "oslo"
+						},
+						{
+							"key": "appid",
+							"value": "d92af1e28a5502d5aa7679855447f9b5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "jakarta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=jakarta&appid=d92af1e28a5502d5aa7679855447f9b5",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "jakarta"
+						},
+						{
+							"key": "appid",
+							"value": "d92af1e28a5502d5aa7679855447f9b5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
